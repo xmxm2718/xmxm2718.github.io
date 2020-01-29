@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "JSNetwork"
+title                    : "이런저런 코딩"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "xmxm2718"
+name                     : "JSNetwork"
 description              : "JSNetwork homepage."
 url                      : "https://xmxm2718.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
