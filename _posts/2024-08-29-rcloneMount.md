@@ -4,8 +4,6 @@ date: 2024-08-29 14:19:28 -0400
 categories: jekyll update
 ---
 
-# rclone - google drive mount
-
 rclone을 사용하여 구글 드라이브를 osx에서 마운트 하는 방법
 
 1. rclone 설치
@@ -18,7 +16,7 @@ link : https://rclone.org/
 $ sudo -v ; curl https://rclone.org/install.sh | sudo bash
 ```
 
-1. macFUSE 설치
+2. macFUSE 설치
 
 link: https://osxfuse.github.io/
 
@@ -28,12 +26,12 @@ link: https://github.com/osxfuse/osxfuse/releases
 
 권한 문제로 복구 환경에서 시동 보안 유틸리티 실행하여 커널 확장 파일 활성화 필요.
 
-1. rclone 설정
+3. rclone 설정
 
 ```bash
 $ rclone config
 ```
 
-1. rclone 마운트
+4. rclone 마운트
 
 rclone mount share_drive: **/Users/jongsu/rclone/share_drive/** --allow-other --fast-list --drive-skip-gdocs --poll-interval=1m --buffer-size=32M --vfs-read-chunk-size=32M --vfs-cache-max-size 100G --vfs-read-chunk-size-limit 2048M --vfs-cache-mode full --dir-cache-time=1m --log-level INFO --rc --rc-no-auth --rc-addr 127.0.0.1:5572
