@@ -1,8 +1,9 @@
 ---
-title: "rclone - google drive mount!"
+title: "rclone - google drive mount! org"
 date: 2024-08-29 14:19:28 -0400
 categories: jekyll update
 ---
+
 rclone을 사용하여 구글 드라이브를 osx에서 마운트 하는 방법
 
 1. rclone 설치
