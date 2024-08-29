@@ -1,7 +1,7 @@
 ---
 title: "rclone - google drive mount!"
 date: 2024-08-29 14:19:28 -0400
-categories: osx
+categories: jekyll update
 ---
 
 # rclone - google drive mount
